@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DevsAura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">DevsAura</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="background-elements">
+            <div class="gradient-blob blob-1"></div>
+            <div class="gradient-blob blob-2"></div>
+        </div>
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Let's discuss your project and how we can help</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container glass">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="John Doe"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="john@example.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="ai-automation">AI Automation</option>
+                                <option value="voice-agents">Voice Agents</option>
+                                <option value="microsoft-365">Microsoft 365 Solutions</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget" required>
+                                <option value="">Select budget range</option>
+                                <option value="1000-5000">$1,000 - $5,000</option>
+                                <option value="5000-10000">$5,000 - $10,000</option>
+                                <option value="10000-25000">$10,000 - $25,000</option>
+                                <option value="25000-50000">$25,000 - $50,000</option>
+                                <option value="50000+">$50,000+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline" required>
+                                <option value="">Select timeline</option>
+                                <option value="asap">ASAP (1-2 weeks)</option>
+                                <option value="1-month">1 Month</option>
+                                <option value="2-3-months">2-3 Months</option>
+                                <option value="3-6-months">3-6 Months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Tell us about your project, goals, and any specific requirements..."
+                                rows="6"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <div class="info-card glass">
+                        <div class="info-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>Lahore, Pakistan</p>
+                    </div>
+
+                    <div class="info-card glass">
+                        <div class="info-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>
+                            <a href="mailto:info@devsaura.com">info@devsaura.com</a>
+                        </p>
+                    </div>
+
+                    <div class="info-card glass">
+                        <div class="info-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>+92 (XXX) XXXX-XXXX</p>
+                    </div>
+
+                    <div class="info-card glass">
+                        <div class="info-icon">🕐</div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday<br>9:00 AM - 6:00 PM (PKT)</p>
+                    </div>
+
+                    <div class="info-box glass">
+                        <h3>Why Choose DevsAura?</h3>
+                        <ul class="benefits-list">
+                            <li>✓ 5+ years of industry experience</li>
+                            <li>✓ 50+ successful projects delivered</li>
+                            <li>✓ Expert team of developers and AI specialists</li>
+                            <li>✓ Transparent communication & regular updates</li>
+                            <li>✓ Competitive pricing & flexible packages</li>
+                            <li>✓ Dedicated support throughout the project</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box glass">
+                        <h3>Follow Us</h3>
+                        <div class="social-links-large">
+                            <a href="#" class="social-icon">in</a>
+                            <a href="#" class="social-icon">𝕏</a>
+                            <a href="#" class="social-icon">⚡</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item glass">
+                    <h4>How long does a project typically take?</h4>
+                    <p>Project timelines vary based on scope and complexity. Small projects take 2-4 weeks, while larger ones may take 2-6 months. We'll provide a detailed timeline after understanding your requirements.</p>
+                </div>
+                <div class="faq-item glass">
+                    <h4>Do you offer support after launch?</h4>
+                    <p>Yes! We provide ongoing support, maintenance, and updates. We can discuss support packages that fit your needs and budget.</p>
+                </div>
+                <div class="faq-item glass">
+                    <h4>Can you work with my existing systems?</h4>
+                    <p>Absolutely. We specialize in integrating with existing platforms, APIs, and systems. We'll ensure seamless integration with your current setup.</p>
+                </div>
+                <div class="faq-item glass">
+                    <h4>What payment options do you offer?</h4>
+                    <p>We accept bank transfers, online payments, and flexible payment plans for larger projects. Discuss payment terms during the consultation.</p>
+                </div>
+                <div class="faq-item glass">
+                    <h4>Can you sign an NDA?</h4>
+                    <p>Yes, we're happy to sign NDAs and confidentiality agreements to protect your business information and intellectual property.</p>
+                </div>
+                <div class="faq-item glass">
+                    <h4>How do you handle project communication?</h4>
+                    <p>We maintain regular communication through meetings, email, and chat. You'll receive progress updates weekly and have direct access to your project manager.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DevsAura</h3>
+                <p>Web Development & AI Automation Agency based in Lahore, Pakistan.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html">Web Development</a></li>
+                    <li><a href="services.html">AI Automation</a></li>
+                    <li><a href="services.html">Voice Agents</a></li>
+                    <li><a href="services.html">Microsoft 365</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Location</h4>
+                <p>Lahore, Pakistan</p>
+                <p class="contact-info">info@devsaura.com</p>
+                <p class="contact-info">+92 (XXX) XXXX-XXXX</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DevsAura. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
