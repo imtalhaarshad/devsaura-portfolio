@@ -166,8 +166,8 @@ body {
 }
 
 .logo-img {
-    height: 80px;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .nav-menu {
@@ -1124,10 +1124,6 @@ body {
         padding: 0 var(--spacing-md);
     }
 
-    .logo-img {
-        height: 60px;
-    }
-
     .nav-menu {
         position: absolute;
         top: 60px;
@@ -1208,4 +1204,21 @@ body {
 
 .animate-slide-in-right {
     animation: slideInRight 0.6s ease-out forwards;
+}
+
+/* ==========================================
+   LOGO SIZING OVERRIDES
+   ========================================== */
+
+.logo img, .navbar-logo, nav img {
+    width: 180px !important;
+    height: auto !important;
+    max-width: none !important;
+    min-width: 180px !important;
+}
+
+.hero-logo img {
+    width: 300px !important;
+    height: auto !important;
+    max-width: none !important;
 }
